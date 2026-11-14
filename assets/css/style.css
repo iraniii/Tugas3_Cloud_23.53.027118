@@ -1,0 +1,426 @@
+
+/* =========================
+   GLOBAL
+========================= */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Arial, sans-serif;
+    background: #F7F3ED;
+    color: #403329;
+    line-height: 1.7;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* =========================
+   NAVBAR
+========================= */
+
+header {
+    background: #604A3A;
+}
+
+.navbar {
+    max-width: 1200px;
+    margin: auto;
+    padding: 20px 35px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    color: #FFFFFF;
+    font-size: 23px;
+    font-weight: bold;
+}
+
+.nav-menu {
+    display: flex;
+    gap: 30px;
+}
+
+.nav-menu a {
+    color: #E9DDCE;
+    font-size: 14px;
+    transition: 0.3s;
+}
+
+.nav-menu a:hover,
+.nav-menu a.active {
+    color: #FFFFFF;
+    font-weight: bold;
+}
+
+/* =========================
+   BERANDA
+========================= */
+
+.hero {
+    max-width: 1150px;
+    margin: auto;
+    padding: 90px 35px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 60px;
+}
+
+.hero-text {
+    flex: 1;
+}
+
+.subtitle {
+    color: #92765D;
+    font-size: 13px;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+.hero h1 {
+    font-size: 45px;
+    line-height: 1.3;
+    margin: 20px 0;
+}
+
+.hero h1 span {
+    color: #92765D;
+}
+
+.hero-text p {
+    color: #766D63;
+    margin-bottom: 30px;
+    max-width: 550px;
+}
+
+.btn {
+    display: inline-block;
+    background: #765D49;
+    color: white;
+
+    padding: 12px 25px;
+    border-radius: 7px;
+
+    transition: 0.3s;
+}
+
+.btn:hover {
+    background: #49382D;
+}
+
+.hero-image {
+    width: 300px;
+    height: 350px;
+
+    border-radius: 15px;
+    overflow: hidden;
+
+    background: #E9DDCE;
+    border: 8px solid white;
+    box-shadow: 0 5px 20px #00000015;
+}
+
+.hero-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/* =========================
+   IDENTITAS
+========================= */
+
+.identity {
+    background: #EEE5DA;
+    padding: 55px 20px;
+    text-align: center;
+}
+
+.identity h2,
+.navigation-section h2 {
+    font-size: 28px;
+    margin-bottom: 15px;
+}
+
+.identity p {
+    max-width: 750px;
+    margin: auto;
+    color: #766D63;
+}
+
+/* =========================
+   NAVIGASI BERANDA
+========================= */
+
+.navigation-section {
+    max-width: 1100px;
+    margin: auto;
+    padding: 70px 30px;
+    text-align: center;
+}
+
+.navigation-cards {
+    display: flex;
+    gap: 25px;
+    margin-top: 30px;
+}
+
+.nav-card {
+    flex: 1;
+    background: #FFFFFF;
+    padding: 30px;
+    border-radius: 12px;
+    border: 1px solid #E8DFD5;
+    text-align: left;
+}
+
+.nav-card h3 {
+    color: #604A3A;
+    margin-bottom: 12px;
+}
+
+.nav-card p {
+    color: #766D63;
+    margin-bottom: 22px;
+}
+
+/* =========================
+   HEADER HALAMAN
+========================= */
+
+.page-header {
+    background: #EEE5DA;
+    padding: 65px 20px;
+    text-align: center;
+}
+
+.page-header h1 {
+    font-size: 38px;
+    color: #49382D;
+    margin: 10px 0;
+}
+
+.page-header p {
+    color: #766D63;
+}
+
+/* =========================
+   MATERI
+========================= */
+
+.content-section {
+    max-width: 1100px;
+    margin: auto;
+    padding: 55px 30px;
+}
+
+.content-card {
+    background: white;
+    border: 1px solid #E8DFD5;
+    border-radius: 12px;
+
+    padding: 30px;
+    margin-bottom: 25px;
+}
+
+.content-card h2 {
+    color: #604A3A;
+    margin-bottom: 15px;
+}
+
+.content-card p,
+.content-card li {
+    color: #766D63;
+}
+
+.content-card ul {
+    padding-left: 25px;
+}
+
+.service-grid {
+    display: flex;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.service-card {
+    flex: 1;
+    background: #F7F3ED;
+    border-radius: 10px;
+    padding: 22px;
+}
+
+.service-card h3 {
+    font-size: 26px;
+    color: #765D49;
+}
+
+.service-card h4 {
+    margin-bottom: 12px;
+}
+
+/* =========================
+   PORTOFOLIO
+========================= */
+
+.portfolio-section {
+    max-width: 1100px;
+    margin: auto;
+    padding: 55px 30px;
+}
+
+.portfolio-intro {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.portfolio-intro h2 {
+    font-size: 28px;
+    margin-bottom: 12px;
+}
+
+.portfolio-intro p {
+    color: #766D63;
+    font-size: 17px;
+}
+
+.task-card {
+    position: relative;
+
+    background: white;
+    border: 1px solid #E8DFD5;
+    border-radius: 12px;
+
+    padding: 35px;
+    margin-bottom: 30px;
+
+    text-align: center;
+    box-shadow: 0 4px 15px #00000008;
+}
+
+.task-number {
+    color: #A68A6D;
+    font-size: 13px;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+.task-card h3 {
+    font-size: 25px;
+    margin: 10px 0 15px;
+    color: #49382D;
+}
+
+.task-card p {
+    color: #766D63;
+    font-size: 16px;
+    margin-bottom: 25px;
+}
+
+.task-button {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    width: 100%;
+
+    background: #806C50;
+    color: white;
+
+    padding: 13px 22px;
+    border-radius: 6px;
+
+    font-size: 18px;
+    transition: 0.3s;
+}
+
+.task-button:hover {
+    background: #49382D;
+}
+
+/* =========================
+   FOOTER
+========================= */
+
+footer {
+    background: #49382D;
+    color: #E9DDCE;
+    text-align: center;
+
+    padding: 22px;
+    font-size: 13px;
+}
+
+/* =========================
+   RESPONSIVE
+========================= */
+
+@media (max-width: 768px) {
+
+    .navbar {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .nav-menu {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 15px;
+    }
+
+    .hero {
+        flex-direction: column-reverse;
+        text-align: center;
+        padding: 55px 25px;
+    }
+
+    .hero h1 {
+        font-size: 34px;
+    }
+
+    .hero-image {
+        width: 230px;
+        height: 270px;
+    }
+
+    .navigation-cards,
+    .service-grid {
+        flex-direction: column;
+    }
+
+    .page-header h1 {
+        font-size: 30px;
+    }
+
+    .task-card {
+        padding: 25px 18px;
+    }
+
+    .task-button {
+        font-size: 15px;
+    }
+}
+
+
+.task-links {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.task-links .task-button {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
