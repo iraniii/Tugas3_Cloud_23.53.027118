@@ -430,3 +430,162 @@ footer {
     position: relative;
     text-align: center;
 }
+
+
+/* =================================
+   VERSI 2 - GREEN THEME
+   Pembaruan warna website
+================================= */
+
+/* Background utama */
+body {
+    background: #F3F7F1;
+    color: #34483A;
+}
+
+/* Navbar */
+header {
+    background: #315C45;
+}
+
+.logo {
+    color: #FFFFFF;
+}
+
+.nav-menu a {
+    color: #E0EBE0;
+}
+
+.nav-menu a:hover,
+.nav-menu a.active {
+    color: #FFFFFF;
+}
+
+/* Beranda */
+.subtitle {
+    color: #477A5B;
+}
+
+.hero h1 span {
+    color: #477A5B;
+}
+
+.hero-text p {
+    color: #657768;
+}
+
+.hero-image {
+    background: #DCE9D9;
+    border-color: #FFFFFF;
+}
+
+/* Tombol utama */
+.btn {
+    background: #477A5B;
+    color: #FFFFFF;
+}
+
+.btn:hover {
+    background: #315C45;
+}
+
+/* Tentang saya */
+.identity {
+    background: #E5EFE2;
+}
+
+.identity p {
+    color: #657768;
+}
+
+/* Kartu navigasi */
+.nav-card {
+    background: #FFFFFF;
+    border-color: #DCE7D9;
+}
+
+.nav-card h3 {
+    color: #315C45;
+}
+
+.nav-card p {
+    color: #657768;
+}
+
+/* Header halaman */
+.page-header {
+    background: #E5EFE2;
+}
+
+.page-header h1 {
+    color: #315C45;
+}
+
+.page-header p {
+    color: #657768;
+}
+
+/* Bagian materi */
+.content-card {
+    background: #FFFFFF;
+    border-color: #DCE7D9;
+}
+
+.content-card h2 {
+    color: #315C45;
+}
+
+.content-card p,
+.content-card li {
+    color: #657768;
+}
+
+/* SaaS, PaaS, IaaS */
+.service-card {
+    background: #F3F7F1;
+}
+
+.service-card h3 {
+    color: #477A5B;
+}
+
+/* Portofolio tugas */
+.portfolio-intro p {
+    color: #657768;
+}
+
+.task-card {
+    background: #FFFFFF;
+    border-color: #DCE7D9;
+}
+
+.task-card h3 {
+    color: #315C45;
+}
+
+.task-card p {
+    color: #657768;
+}
+
+/* Tombol Google Form dan Tugas 2 */
+.task-button {
+    background: #477A5B;
+    color: #FFFFFF;
+}
+
+.task-button:hover {
+    background: #315C45;
+}
+
+/* Footer */
+footer {
+    background: #315C45;
+    color: #E0EBE0;
+}
+
+/* Efek hover kartu */
+.task-card:hover,
+.nav-card:hover {
+    box-shadow: 0 8px 25px #315C4515;
+}
+
