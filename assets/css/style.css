@@ -424,3 +424,9 @@ footer {
     align-items: center;
     width: 100%;
 }
+/* Membuat tulisan tombol berada di tengah */
+.task-button {
+    justify-content: center;
+    position: relative;
+    text-align: center;
+}
